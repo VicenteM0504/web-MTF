@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camisetas Retro</title>
+    <link rel="stylesheet" href="styler.css">
+    <script src="precio.js"></script>
+</head>
+<body>
+    <h1>CAMISETAS RETRO</h1>
+
+    <div class="bloque">
+<h2 class="subtitulo">CAMISETAS NACIONALES</h2>
+<div class="slider">
+        <span style="--i:1"><img src="Camisetas Nac/arg1.jpg" alt=""></span>
+        <span style="--i:2"><img src="Camisetas Nac/arg2.jpg" alt=""></span>
+        <span style="--i:3"><img src="Camisetas Nac/banfretro.jpg" alt=""></span>
+        <span style="--i:4"><img src="Camisetas Nac/bocaretro.jpg"></span>
+        <span style="--i:5"><img src="Camisetas Nac/indepretro.jpg" alt=""></span>
+        <span style="--i:6"><img src="Camisetas Nac/racingretro.jpg" alt=""></span>
+        <span style="--i:7"><img src="Camisetas Nac/riveretro.jpg" alt=""></span>
+        <span style="--i:8"><img src="Camisetas Nac/sanloretro.jpg" alt=""></span>
+    </div>
+</div>
+<br>
+<div class="bloque">
+<h2 class="subtitulo">CAMISETAS INTERNACIONALES</h2>
+<div class="slider">
+        <span style="--i:1"><img src="Camisetas Int/alemretro.jpg" alt=""></span>
+        <span style="--i:2"><img src="Camisetas Int/barcelonaretro.jpg" alt=""></span>
+        <span style="--i:3"><img src="Camisetas Int/betisretro.jpg" alt=""></span>
+        <span style="--i:4"><img src="Camisetas Int/chivas.jpg" alt=""></span>
+        <span style="--i:5"><img src="Camisetas Int/croaciaretro.jpg" alt=""></span>
+        <span style="--i:6"><img src="Camisetas Int/EC Bahia.jpg" alt=""></span>
+        <span style="--i:7"><img src="Camisetas Int/fluretro.jpg" alt=""></span>
+        <span style="--i:8"><img src="Camisetas Int/nacional.jpg" alt=""></span>
+    </div>
+</div>
+
+          <div class="contenedor-principal">
+        <div class="cuadrito">
+            <h2>Elegí tu camiseta: </h2>
+            <select id="equipo"> 
+            <option value="river">River Plate</option>
+            <option value="boca">Boca Juniors</option>
+            <option value="arg">Argentina</option>
+            <option value="rac">Racing Club</option>
+            <option value="ale">Alemania</option>
+            <option value="bar">Barcelona</option>
+            <option value="cro">Croacia</option>
+            <option value="bet">Betis</option>
+        </select>
+        
+    
+        </div>
+        
+    <div class="cuadro">
+        <form id="talle">
+        <h2>Elegí tu talle</h2>
+        <p >
+        <br>
+        S<input type="radio" name="talle" value="s">
+        <br>
+        M<input type="radio" name="talle" value="m">
+        <br>
+        L<input type="radio" name="talle" value="l">
+        </p>
+    </form>
+    
+    </div>
+    <button onclick="precio()">CALCULAR</button>
+        <div id="precioCuadro">
+            <h2>Precio: </h2>
+           <p id="resultado2">$0</p>
+    </div>
+
+  </div>
+    <div class="iniciosesion">
+  <a href="usuario.html">
+  <button>Ir a pagar</button>
+</a>
+ </div>
+
+</body>
+</html>

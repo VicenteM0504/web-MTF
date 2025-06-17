@@ -1,0 +1,27 @@
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #091d3e, #595e72);
+      font-family: Arial, sans-serif;
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .login-caja {
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      width: 300px;
+    }
+
+    .login-caja h2 {
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    
